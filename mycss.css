@@ -1,0 +1,105 @@
+body {
+    width: 100%;
+    background: url(background.jpg) no-repeat center fixed;
+    background-size: cover;
+       
+   }
+
+.content {
+    background-color: #000000;
+    color:#ff9933;
+    padding: 40px;
+    margin: 125px;
+    font-family: Tahoma, sans-serif;
+    
+}
+
+@media screen and (max-width: 576px) {
+    .content {
+        margin: 125px 0px 125px 0px; 
+        padding: 40px 5px 40px 5px;      
+    }
+    .carousel-item {
+        width: 100%;
+        height: auto; /* example */       
+    }
+      
+    .carousel-item img {
+        width: 100%;
+        height: auto;       
+        object-fit: cover;
+    }
+    .carusel-caption{
+        font-size: smaller;
+    }
+    
+    body{
+        max-height: 100vh;
+    }
+      
+  }
+
+.carusel-caption{
+   
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.navigationbar-text{
+    color:#ff9933;
+    
+}
+.textcolor{
+    color:#ff9933;
+
+}
+.nav-item{
+    padding-left:10px;
+    color:#ff9933;
+}
+.homecontent{
+    border: 2px solid #ff9933; 
+    border-radius: 5px;
+    padding:10px;
+    margin-bottom:30px;
+}
+
+.races{
+    text-align: center;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    display: block;
+    margin-bottom: 40px;
+
+  }
+
+  .center {
+    margin: auto;
+    
+    border: 3px solid green;
+    padding: 10px;
+  }
+
+.racesimg{
+    width: 50%;
+    height: auto;
+}
+
+.footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+
