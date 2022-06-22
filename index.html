@@ -24,7 +24,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#"><img src="https://i.shgcdn.com/8566ffaa-3c08-44a4-b849-791b84bd6c35/-/format/auto/-/preview/3000x3000/-/quality/lighter/" alt="" width="60" height="29"></a>
+            <a class="navbar-brand" href="#"><img src="https://i.shgcdn.com/8566ffaa-3c08-44a4-b849-791b84bd6c35/-/format/auto/-/preview/3000x3000/-/quality/lighter/" alt="" width="120" height="59"></a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">            
               <li class="nav-item">
                 <a class="nav-link navigationbar-text" href="#!races">Rasy</a>
@@ -50,42 +50,6 @@
       <div class="content ng-view"></div>        
       
 
-      <script>
-        var app = angular.module("myApp", ["ngRoute"]);
-        app.config(function($routeProvider) {
-          $routeProvider
-          .when("/", {
-            templateUrl : "home.htm"
-          })
-          .when("/races", {
-            templateUrl : "races.htm"
-          })
-          .when("/classes", {
-            templateUrl : "classes.htm"
-          })
-          .when("/map", {
-            templateUrl : "map.htm"           
-          })
-          
-                   
-        });
-
-        function showGeneral(){
-          document.getElementById("mapImage").src = "maps/general.jpg";
-        }
-        function showAzeroth(){
-          document.getElementById("mapImage").src = "maps/Azeroth.jpg";
-        }
-        function showOutland(){
-          document.getElementById("mapImage").src = "maps/Outland.jpg";
-        }
-        function showDraenor(){
-          document.getElementById("mapImage").src = "maps/Draenor.jpg";
-        }
-        function showShadowlands(){
-          document.getElementById("mapImage").src = "maps/Shadowlands.jpg";
-        }
-      </script>
   
   <div class="footer">
     <p style="margin-bottom:0px">Footer</p>
